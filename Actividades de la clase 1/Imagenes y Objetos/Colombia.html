@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colombia</title>
+
+</head>
+<body>
+    <!-- aqui serian mas o menos la parte de las imagenes -->
+    <h1>Mapa de colombia</h1>
+    <img src="./Costa.jpg" width ="100" height ="100" longdesc = "/co.pinterest.com/pin/555983516511367721/" alt="gif " name = "La costa" />
+<br>
+
+    <!-- ahora viene el mapa -->
+    <img src="colombia.gif" usemap="#mapa_zonas" />
+
+<map name="mapa_zonas">
+  <area shape="rect" coords="20,25,84,113" href="rectangulo.html" />
+  <area shape="polygon" coords="90,25,162,26,163,96,89,25,90,24" href="triangulo.html" />
+  <area shape="circle" coords="130,114,29" href="circulo.html" />
+  <area shape="rect" coords="19,156,170,211" href="mailto:rectangulo@direccion.com" />
+  <area shape="default" nohref="nohref" />
+</map>
+<!-- objetos -->
+
+<object data="documento.pdf" type="application/pdf" width="400" height="300">
+    <p>Tu navegador no puede mostrar el objeto PDF. Puedes descargarlo <a href="./colombia.pdf">aquí</a>.</p>
+  </object>
+  
+</body>
+</html>
